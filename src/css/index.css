@@ -275,8 +275,9 @@ nav img {
 }
 
 .main .main-swiper .swiper-container .swiper-slide dl dt img {
-  width: 70%;
+  width: 60%;
   height: auto;
+  margin-top: 3px;
 }
 
 .main .main-swiper .swiper-container .swiper-slide dl dd {

@@ -25,7 +25,176 @@
         </nav>
         <main class="main">
             <div class="main-swiper">
-
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <dl>
+                                <dt>
+                                    <img src="./images/1.png" alt="">
+                                </dt>
+                                <dd>
+                                    美食
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/2.png" alt="">
+                                </dt>
+                                <dd>
+                                    超市便利
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/3.png" alt="">
+                                </dt>
+                                <dd>
+                                    生鲜果蔬
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/4.png" alt="">
+                                </dt>
+                                <dd>
+                                    美团专送
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/5.png" alt="">
+                                </dt>
+                                <dd>
+                                    跑腿代购
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/6.png" alt="">
+                                </dt>
+                                <dd>
+                                    早餐
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/7.png" alt="">
+                                </dt>
+                                <dd>
+                                    甜点饮品
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/8.png" alt="">
+                                </dt>
+                                <dd>
+                                    家常菜
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/9.png" alt="">
+                                </dt>
+                                <dd>
+                                    见免配送费
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/10.png" alt="">
+                                </dt>
+                                <dd>
+                                    品牌连锁
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide">
+                            <dl>
+                                <dt>
+                                    <img src="./images/1.png" alt="">
+                                </dt>
+                                <dd>
+                                    美食
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/2.png" alt="">
+                                </dt>
+                                <dd>
+                                    超市便利
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/3.png" alt="">
+                                </dt>
+                                <dd>
+                                    生鲜果蔬
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/4.png" alt="">
+                                </dt>
+                                <dd>
+                                    美团专送
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/5.png" alt="">
+                                </dt>
+                                <dd>
+                                    跑腿代购
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/6.png" alt="">
+                                </dt>
+                                <dd>
+                                    早餐
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/7.png" alt="">
+                                </dt>
+                                <dd>
+                                    甜点饮品
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/8.png" alt="">
+                                </dt>
+                                <dd>
+                                    家常菜
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/9.png" alt="">
+                                </dt>
+                                <dd>
+                                    见免配送费
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <img src="./images/10.png" alt="">
+                                </dt>
+                                <dd>
+                                    品牌连锁
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
             <div class="main-list">
 
@@ -35,25 +204,29 @@
             </div>
         </main>
         <footer class="footer">
-                <dl>
-                        <dt> <img src="./images/14.png" alt=""></dt>
-                        <dd>首页</dd>
-                    </dl>
-                    <dl>
-                        <dt> <img src="./images/15.png" alt=""></dt>
-                        <dd>订单</dd>
-                    </dl>
-                    <dl>
-                        <dt> <img src="./images/16.png" alt=""></dt>
-                        <dd>我的</dd> 
-                    </dl>
+            <dl>
+                <dt> <img src="./images/14.png" alt=""></dt>
+                <dd>首页</dd>
+            </dl>
+            <dl>
+                <dt> <img src="./images/15.png" alt=""></dt>
+                <dd>订单</dd>
+            </dl>
+            <dl>
+                <dt> <img src="./images/16.png" alt=""></dt>
+                <dd>我的</dd>
+            </dl>
         </footer>
     </div>
     <script src="./scripts/jquery.min.js"></script>
     <script src="./scripts/bscroll.min.js"></script>
     <script src="./scripts/swiper.min.js"></script>
     <script>
-
+        var mySwiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        })
     </script>
 </body>
 
